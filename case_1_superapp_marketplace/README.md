@@ -125,6 +125,6 @@
 
 ## Материалы
 
-- Подробный дизайн эксперимента: `experiment_design.md`
-- Презентация кейса: `presentation.pdf` (опционально)
+- Подробный дизайн эксперимента: [experiment_design.md](https://github.com/SVNasonkova/portfolio_ab_testing/blob/4d18901977a6c1d7a9eaa45062527997153b985d/case_1_superapp_marketplace/presentation.pdf)
+- Презентация кейса: [presentation.pdf](https://github.com/SVNasonkova/portfolio_ab_testing/blob/4d18901977a6c1d7a9eaa45062527997153b985d/case_1_superapp_marketplace/presentation.pdf) (опционально)
 
