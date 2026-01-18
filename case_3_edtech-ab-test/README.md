@@ -20,6 +20,8 @@ case_3_edtech-ab-test/
 ├── notebooks/
 │   ├── 1_exploratory_analysis.ipynb
 │   └── 2_experiment_design.ipynb
+├── presentation/
+│   ├── EdTech.pdf
 ├── requirements.txt
 └── README.md
 ```
