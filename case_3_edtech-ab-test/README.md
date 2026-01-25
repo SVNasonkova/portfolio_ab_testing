@@ -13,17 +13,19 @@
 
 ## Структура репозитория
 
+```text
 case_3_edtech-ab-test/
-├── data/
-│ └── edtech_events.csv
-├── notebooks/
-│ ├── 1_exploratory_analysis.ipynb
-│ └── 2_experiment_design.ipynb
-├── presentation/
-│ └── ab_test_design.pdf
-├── requirements.txt
-└── README.md
+├── data/                     # исходные логи событий
+│   └── edtech_events.csv
+├── notebooks/                # анализ и дизайн эксперимента
+│   ├── 1_exploratory_analysis.ipynb
+│   └── 2_experiment_design.ipynb
+├── presentation/             # итоговая презентация кейса
+│   └── AB_EdTech.pdf
+├── requirements.txt          # зависимости проекта
+└── README.md                 # описание проекта
 
+```
 
 ---
 
