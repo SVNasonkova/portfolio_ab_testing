@@ -1,12 +1,14 @@
-# Портфолио по анализу данных с примерами дизайна A/B-экспериментов для продуктовых и маркетинговых задач в цифровых продуктах.
 # A/B Testing & Experiment Design  
 *Product & Growth Analytics Portfolio*
+
+Портфолио по анализу данных с примерами дизайна A/B-экспериментов
+для продуктовых и маркетинговых задач в цифровых продуктах.
 
 ## О репозитории
 
 Репозиторий содержит примеры проектирования **A/B-экспериментов** для продуктовых и маркетинговых решений в цифровых продуктах.
 
-Фокус сделан не на статистических расчётах как самоцели, а на продуктовой логике экспериментов:
+Фокус сделан не на расчётах как самоцели, а на продуктовой логике экспериментов:
 
 - формулировке бизнес- и продуктовых гипотез;
 - выборе primary, secondary и guardrail-метрик;
@@ -33,7 +35,7 @@
 - проектирования A/B и A/B/n экспериментов;
 - работы с продуктовой воронкой и пользовательским поведением;
 - выбора корректных метрик, MDE и дизайна эксперимента;
-- выявления ситуаций, когда эксперимент **нецелесообразен** к запуску.
+- выявления ситуаций, когда запуск эксперимента требует дополнительных условий или доработки данных.
 
 ---
 
@@ -42,8 +44,8 @@
 № | Ссылка на проект | Отрасль бизнеса | Описание | Навыки и подходы, представленные в проектах | Презентация проекта
 ---|---|---|---|---|---
 1 | [Supperapp: Marketplace Removal](https://github.com/SVNasonkova/portfolio_ab_testing/tree/4d18901977a6c1d7a9eaa45062527997153b985d/case_1_superapp_marketplace) | Digital / Superapp / Mobility | Дизайн A/B/n-эксперимента для оценки влияния удаления маркетплейса из супераппа на вовлечённость пользователей в заказ такси. Проработка гипотез, primary и guardrail-метрик, рандомизации, утечки и вызревания метрик. | Product analytics, A/B/n testing, Experiment design, ITT, Guardrail metrics, Metric maturation, Stratification, CUPED |[Презентация "Supperapp — влияние удаления маркетплейса"](https://github.com/SVNasonkova/portfolio_ab_testing/blob/4d18901977a6c1d7a9eaa45062527997153b985d/case_1_superapp_marketplace/presentation.pdf)
-2 | [Email vs Push Marketing Test](https://github.com/SVNasonkova/portfolio_ab_testing/tree/4d18901977a6c1d7a9eaa45062527997153b985d/case_2_marketing_channels) | Marketing / CRM / Growth | Дизайн A/B/n (4-arm) эксперимента для сравнения эффективности email- и push-коммуникаций в привлечении новых клиентов. Выбор success- и guardrail-метрик, контроль побочных эффектов, обоснование серии тестов. | Growth analytics, A/B/n testing, CRM experimentation, Uplift measurement, Guardrail metrics, Sequential testing |[Презентация "Marketing — Email vs Push-коммуникации"](https://github.com/SVNasonkova/portfolio_ab_testing/blob/4d18901977a6c1d7a9eaa45062527997153b985d/case_2_marketing_channels/presentation.pdf)
-3 | [EdTech: Персонализация карусели курсов](https://github.com/SVNasonkova/portfolio_ab_testing/tree/main/case_3_edtech-ab-test) | EdTech / Online Education | Аналитический кейс по проектированию A/B-теста персонализированной карусели курсов «Вам понравится». Проведён exploratory analysis логов пользовательских событий, анализ пользовательской воронки и выявлены ключевые ограничения данных. На основе результатов EDA спроектирован дизайн эксперимента: обоснован выбор метрик и единицы рандомизации, оценена чувствительность теста (MDE), сформулированы допущения и ограничения по трафику и длительности.| Product analytics, funnel analysis, event logs, A/B testing, MDE, and data-constrained experiment design | [Презентация "A/B-тест персонализированной карусели курсов: проектирование эксперимента"](https://github.com/SVNasonkova/portfolio_ab_testing/blob/02ebf04682ebb1a8061f16895232b554f295c1c4/case_3_edtech-ab-test/presentation/AB_EdTech.pdf)
+2 | [Email vs Push Marketing Test](https://github.com/SVNasonkova/portfolio_ab_testing/tree/4d18901977a6c1d7a9eaa45062527997153b985d/case_2_marketing_channels) | Marketing / CRM / Growth | Дизайн A/B/n (4-arm) эксперимента для сравнения эффективности email- и push-коммуникаций в привлечении новых клиентов. Выбор success- и guardrail-метрик, контроль побочных эффектов, обоснование серии тестов. | Growth analytics, A/B/n testing, CRM experimentation, uplift measurement, guardrail metrics, sequential testing |[Презентация "Marketing — Email vs Push-коммуникации"](https://github.com/SVNasonkova/portfolio_ab_testing/blob/4d18901977a6c1d7a9eaa45062527997153b985d/case_2_marketing_channels/presentation.pdf)
+3 | [EdTech: Персонализация карусели курсов](https://github.com/SVNasonkova/portfolio_ab_testing/tree/main/case_3_edtech-ab-test) | EdTech / Online Education | Аналитический кейс по проектированию A/B-теста персонализированной карусели курсов «Вам понравится». Проведён exploratory analysis логов пользовательских событий, анализ пользовательской воронки и выявлены ключевые ограничения данных. На основе результатов EDA спроектирован дизайн эксперимента: обоснован выбор метрик и единицы рандомизации, оценена чувствительность теста (MDE), сформулированы допущения и ограничения по трафику и длительности.| Product analytics, funnel analysis, event logs, A/B testing, MDE, data-constrained experiment design | [Презентация "A/B-тест персонализированной карусели курсов: проектирование эксперимента"](https://github.com/SVNasonkova/portfolio_ab_testing/blob/02ebf04682ebb1a8061f16895232b554f295c1c4/case_3_edtech-ab-test/presentation/AB_EdTech.pdf)
 ## Ключевые продуктовые выводы
 
 Проекты демонстрируют, что:
@@ -51,7 +53,8 @@
 - не каждый продуктовый эксперимент имеет смысл запускать;
 - корректный выбор метрик и дизайна важнее самого факта A/B-теста;
 - guardrail-метрики защищают продукт от деградации;
-- аналитик обязан учитывать ограничения трафика, данных и времени.
+- аналитик обязан учитывать ограничения трафика, данных и времени при принятии продуктовых решений.
+
 
 ## Используемые инструменты и методы
 
